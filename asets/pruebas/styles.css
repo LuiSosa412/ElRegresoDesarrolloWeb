@@ -1,0 +1,30 @@
+.buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #606c38;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+  }
+
+  .buttons{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+
+.buttons {
+  min-width: 330px;
+  display: flex;
+  justify-content: space-around;
+}
