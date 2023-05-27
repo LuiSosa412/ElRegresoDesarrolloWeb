@@ -1,11 +1,15 @@
 .demo-layout-transparent {
     background: url('./asets/hearder.jpg') center / cover;
+    /* filter: brightness(50%); */
+    /* opacity: .8; */
+    
   }
   .demo-layout-transparent .mdl-layout__header,
   .demo-layout-transparent .mdl-layout__drawer-button {
     /* This background is dark, so we set text to white. Use 87% black instead if
        your background is light. */
     color: white;
+    
   }
 
   .img-header{
@@ -32,6 +36,16 @@
   .img-header-1{
     height: 35px;
     width: auto;
+  }
+
+  .text-center{
+    color:#f1f1f1 ;
+    /* background-color: rgba(10, 10, 10, 0.5); */
+    border-radius: 12px;
+  }
+  .Contend-header, .h1{
+    color: #1c1c1b ;
+    margin-bottom: 50px;
   }
  /* MQ PARA MENU DESPLEGABLE======================= */
   @media screen and (max-width:1024px){
@@ -102,3 +116,50 @@
     min-width: 330px;
 }
 
+
+
+
+
+
+.demo-card-image.mdl-card {
+    width: 962px;
+    height: 65px;
+    background: url('./asets/logo113.png') center / cover;
+    margin-left: 22px;
+    margin-top: 50px;
+  }
+  .demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-left: 22px;
+    margin-top: 100px;
+  }
+  .demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500px;
+  }
+
+  .body-section{
+    background: white;
+    /* position: relative; */
+    height: auto;
+    width: auto;
+    background-size: cover;
+
+  }
+/* ======================================================= */
+  .mdl-layout__conten{
+    background: white center top no-repeat;
+    
+  }
+.tex-article{
+    margin: 70px;
+}
+
+  .article{
+    display: flex;
+    align-items: center;
+    /* margin: 100px; */
+  }
