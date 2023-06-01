@@ -1,30 +1,133 @@
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+
+
+
+
+.mdl-layout__header{
+  /* background: url('../hearder.jpg') center / cover; */
+  background: #b1b158;
+}
+
+.img-header{
+  height: 300px;
+  width: 325px;
+   /* filter: brightness(50%); */
+    /* opacity: .8; */
+  
+}
+
+.ContendHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  
+}
+
+.text-herader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.img-header-1{
+  height: 35px;
+  width: auto;
+}
+
+.text-center{
+  color:#f1f1f1 ;
+  /* background-color: rgba(10, 10, 10, 0.5); */
+  border-radius: 12px;
+}
+.ContendHeader, .h1{
+  color: #1c1c1b ;
+  margin-bottom: 50px;
+}
+
+.material-icons{
+  color: #b1b158;
+}
+/* MQ PARA MENU DESPLEGABLE======================= */
+@media screen and (max-width:1024px){
+  .ContendHeader{
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      
+  }
+
+  .img-header{
+      height: auto;
+      width: 332px;
+      
+    }
+
+  .text-herader{
+      display: flex;
+      align-items: center;
+    }
+
+    .img-header-1{
+      height: 43px;
+      width: auto;
+    }
+}
+
+/* DISEÑO DE MENU DESPLEGABLE ========================*/
+.mdl-layout__drawer{
+  background-color:   #ffffff  ;
+  border-right: 0px
+}
+.mdl-layout__title, .mdl-layout-title{
+  color:   #1c1c1b ;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+  color:  #1c1c1b;
+}
+
+/* =====BOTONES DE REDES SOCIALES=========================================== */
 .buttons a {
-    text-decoration: none;
-    font-size: 20px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background: #606c38;
-    color: #f1f1f1;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
+  text-decoration: none;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background:   #1c1c1b  ;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
 }
 
 .buttons a:hover {
-    transform: scale(1.2);
-  }
-
-  .buttons{
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
-
+  transform: scale(1.2);
 }
 
-.buttons {
-  min-width: 330px;
+.buttons{
   display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  margin-top: 30px;
   justify-content: space-around;
+  min-width: 330px;
+}
+
+/* ======================================================= */
+.demo-card-wide.mdl-card {
+  width: 100vw;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 576px;
+  background: url('../hearder.jpg') center / cover;
+   /* filter: brightness(50%); */
+    /* opacity: .8; */
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
 }

@@ -1,95 +1,96 @@
-.demo-layout-transparent {
-    background: url('./asets/hearder.jpg') center / cover;
-    /* filter: brightness(50%); */
-    /* opacity: .8; */
-    
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+    padding-right: 0;
   }
-  .demo-layout-transparent .mdl-layout__header,
-  .demo-layout-transparent .mdl-layout__drawer-button {
-    /* This background is dark, so we set text to white. Use 87% black instead if
-       your background is light. */
-    color: white;
-    
+  
+  
+  
+  
+  .mdl-layout__header{
+    /* background: url('../hearder.jpg') center / cover; */
+    background: #b1b158;
   }
-
+  
   .img-header{
-    height: 456px;
-    width: 557px;
+    height: 300px;
+    width: 325px;
+     /* filter: brightness(50%); */
+      /* opacity: .8; */
     
   }
-
-  .Contend-header{
+  
+  .ContendHeader{
     display: flex;
     align-items: center;
     justify-content: center;
     color: aliceblue;
     
   }
-
+  
   .text-herader{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
+  
+  
   }
   .img-header-1{
     height: 35px;
     width: auto;
   }
-
+  
   .text-center{
     color:#f1f1f1 ;
     /* background-color: rgba(10, 10, 10, 0.5); */
     border-radius: 12px;
   }
-  .Contend-header, .h1{
+  .ContendHeader, .h1{
     color: #1c1c1b ;
     margin-bottom: 50px;
   }
- /* MQ PARA MENU DESPLEGABLE======================= */
+  
+  .material-icons{
+    color: #b1b158;
+  }
+  /* MQ PARA MENU DESPLEGABLE======================= */
   @media screen and (max-width:1024px){
-    .Contend-header{
+    .ContendHeader{
         display: flex;
         flex-direction: column;
-        margin-top: 29px;
         padding: 50px;
         
     }
-
+  
     .img-header{
         height: auto;
         width: 332px;
         
       }
-
+  
     .text-herader{
         display: flex;
         align-items: center;
       }
-
+  
       .img-header-1{
         height: 43px;
         width: auto;
       }
-
-
-
-}
- /* DISEÑO DE MENU DESPLEGABLE ========================*/
- .mdl-layout__drawer{
-    background-color:   #bab29c  ;
+  }
+  
+  /* DISEÑO DE MENU DESPLEGABLE ========================*/
+  .mdl-layout__drawer{
+    background-color:   #ffffff  ;
     border-right: 0px
- }
- .mdl-layout__title, .mdl-layout-title{
+  }
+  .mdl-layout__title, .mdl-layout-title{
     color:   #1c1c1b ;
- }
- .mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
     color:  #1c1c1b;
- }
-
- /* =====BOTONES DE REDES SOCIALES=========================================== */
- .buttons a {
+  }
+  
+  /* =====BOTONES DE REDES SOCIALES=========================================== */
+  .buttons a {
     text-decoration: none;
     font-size: 20px;
     width: 35px;
@@ -101,12 +102,12 @@
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s ease-in-out;
-}
-
-.buttons a:hover {
+  }
+  
+  .buttons a:hover {
     transform: scale(1.2);
   }
-
+  
   .buttons{
     display: flex;
     align-items: start;
@@ -114,52 +115,20 @@
     margin-top: 30px;
     justify-content: space-around;
     min-width: 330px;
-}
-
-
-
-
-
-
-.demo-card-image.mdl-card {
-    width: 962px;
-    height: 65px;
-    background: url('./asets/logo113.png') center / cover;
-    margin-left: 22px;
-    margin-top: 50px;
   }
-  .demo-card-image > .mdl-card__actions {
-    height: 52px;
-    padding: 16px;
-    background: rgba(0, 0, 0, 0.2);
-    margin-left: 22px;
-    margin-top: 100px;
+  
+  /* ======================================================= */
+  .demo-card-wide.mdl-card {
+    width: 100vw;
   }
-  .demo-card-image__filename {
+  .demo-card-wide > .mdl-card__title {
     color: #fff;
-    font-size: 14px;
-    font-weight: 500px;
+    height: 576px;
+    background: url('./asets/hearder.jpg') center / cover;
+     /* filter: brightness(50%); */
+      /* opacity: .8; */
   }
-
-  .body-section{
-    background: white;
-    /* position: relative; */
-    height: auto;
-    width: auto;
-    background-size: cover;
-
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
   }
-/* ======================================================= */
-  .mdl-layout__conten{
-    background: white center top no-repeat;
-    
-  }
-.tex-article{
-    margin: 70px;
-}
-
-  .article{
-    display: flex;
-    align-items: center;
-    /* margin: 100px; */
-  }
+  
