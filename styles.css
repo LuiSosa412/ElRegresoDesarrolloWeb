@@ -87,14 +87,14 @@
   }
   
   /* =====BOTONES DE REDES SOCIALES=========================================== */
-  /* .buttons a {
+  .buttons a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 21px;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background:   #1c1c1b;
+    background:   #000000;
     color: #f1f1f1;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
@@ -108,11 +108,11 @@
   .buttons{
     display: flex;
     align-items: start;
-    justify-content: flex-start;
-    justify-content: end;
+    justify-content: start;
+    justify-content: start;
     column-gap: 30px;
     min-width: 330px;
-  } */
+  }
 /* =====PRIMERA TARJETA================================================== */
     .mdl-card-regreso{
         width: 100vw;
@@ -169,17 +169,11 @@
 .textob{
   color: #f1f1f1;
   text-align: center;
+  font-size: 19px;
+  letter-spacing: 2px;
+
 }
 
-.mdl-button{
-  margin-top: 475px;
-  margin-left: 140px;
-  margin-right: 140px;
-  /* height: 30px;
-  width: 50px;  */
-  
-  border-radius: 12px;
-}
 
     /* MEDIA Q. PARA 1 TARJETA */
     @media screen and (max-width:1024px){
@@ -312,8 +306,17 @@ h3{
   font-weight: 500;
 } */
 
+.mdl-button{
+  margin-top: 47px;
+  margin-left: 140px;
+  margin-right: 140px;
+  /* height: 30px;
+  width: 50px;  */
+  
+  border-radius: 12px;
+}
 
-    /* MEDIA Q. PARA 4 TARJETA */
+    /* MEDIA Q. PARA 6 TARJETA */
     @media screen and (max-width:1024px){
       .demo-card-image6.mdl-card {
         width: 100vw;
@@ -327,3 +330,35 @@ h3{
         background: rgba(0, 0, 0, 0.2);
       }
     }
+    .mdl-card__title-regreso1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+/* =====FOOTER================================================== */
+a{
+  color: #fff;
+}
+.mdl-mini-footer{
+  background-color: #000000;
+}
+
+/* .mdl-mini-footer__social-btn:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.mdl-mini-footer__social-btn a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.mdl-mini-footer__social-btn a:hover {
+  color: #000;
+} */
+@media screen and (max-width:1024px){
+  .buttons{
+    margin-top: 16px;
+  }
+}

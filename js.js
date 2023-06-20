@@ -8,7 +8,7 @@
 
   window.sr = ScrollReveal();
   sr.reveal('.scroll-right', {
-    duration: 3000,
+    duration: 4000,
     origin: 'right',
     distance: '-100px'
   });

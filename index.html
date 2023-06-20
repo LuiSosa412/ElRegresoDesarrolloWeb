@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/bbef660b2c.js" crossorigin="anonymous"></script>
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
@@ -32,6 +34,11 @@
           <!-- Bottom row, not visible on scroll -->
           <div class="mdl-layout__header-row">
             <!-- Title -->
+            <div class="buttons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="#" class="fa fa-instagram"></a>
+          </div>
             <span class="mdl-layout-title">
                 <img class="img-header-1" src="./asets/el regreso-solo nombre-2.png" alt="">
             </span>
@@ -42,14 +49,15 @@
               <a class="mdl-navigation__link" href="./index.html">Inicio</a>
               <a class="mdl-navigation__link" href="">Nuestro origen</a>
               <a class="mdl-navigation__link" href="./macetas.html">Macetas</a>
-              <a class="mdl-navigation__link" href="">Contacto</a>
-              
+              <a class="mdl-navigation__link" href="">Contacto</a>            
             </nav>
+
             <!-- <div class="buttons">
               <a href="#" class="fa fa-facebook"></a>
               <a href="#" class="fa fa-whatsapp"></a>
               <a href="#" class="fa fa-instagram"></a>
           </div> -->
+          
 
           </div>
         </header>
@@ -67,7 +75,7 @@
         </div>
 <!-- =====AQUI EMPIEZA EL CONTENIDO================================================== -->
         <main class="mdl-layout__content">
-<!-- ===== 0 TARJETA================================================== -->
+<!-- ===== CERO TARJETA================================================== -->
               <div class="demo-card-image mdl-card mdl-shadow--2dp ">
                 <div class="mdl-card__title mdl-card--expand ">
                   <div class="mdl-card__title ContendHeader ">
@@ -104,20 +112,18 @@
                   <hr>
                 </div>
               </div>
-
 <!--  =====SEGUNDA TARJETA==================================================  -->
               <div class="demo-card-image2 mdl-card mdl-shadow--2dp">           
-                <div class="mdl-card__title mdl-card--expand">
+                <div class="mdl-card__title mdl-card__title-regreso1 mdl-card--expand">
                   <div class="mdl-card__supporting-text">
-                    <p class="textob">
+                    <p class="textob ">
                       Descubre la magia de "El Regreso", el mezcal que te transporta a tus raíces y 
                       despierta la nostalgia de aquellos lugares que alguna vez dejamos atrás. 
                       Nuestra marca es un tributo a la cultura y tradiciones perdurables, un viaje 
                       sensorial que te sumerge en la autenticidad de nuestros ancestros.</p>
                   </div>
-                </div>
-                  
-                
+                  <button class="mdl-button mdl-js-button mdl-button--raised">NOSOTROS</button>
+                </div>                                
               </div>
 <!--  =====TERCERA TARJETA==================================================  -->
               <div class="mdl-card mdl-card-regreso-3 mdl-shadow--4dp">
@@ -131,7 +137,7 @@
                   <hr>
                 </div>
               </div>
-  <!--  =====CUARTA TARJETA==================================================  -->
+<!--  =====CUARTA TARJETA==================================================  -->
               <div class="demo-card-image3 mdl-card mdl-shadow--2dp">           
                 <div class="mdl-card__title mdl-card--expand"></div>
                
@@ -139,7 +145,7 @@
                   <span class="demo-card-image__filename">Image.jpg</span>
                 </div> -->
               </div>
-  <!--  =====QUINTA TARJETA==================================================  -->
+<!--  =====QUINTA TARJETA==================================================  -->
               <div class="mdl-card mdl-card-regreso-5 mdl-shadow--4dp">
                 <!-- <div class="scroll-left mdl-card__media">
                   <img src="./asets/logo213.png" width="auto" height="257" border="0" alt="" style="padding:10px;">
@@ -153,13 +159,16 @@
                   <hr>
                 </div>
               </div>
-  <!--  =====SEXTA TARJETA==================================================  -->
+<!--  =====SEXTA TARJETA==================================================  -->
               <div class="demo-card-image6 mdl-card mdl-shadow--2dp">           
-                <div class="mdl-card__title mdl-card--expand"></div>
-               
-                <!-- <div class="mdl-card__actions">
-                  <span class="demo-card-image__filename">Image.jpg</span>
-                </div> -->
+                <div class="mdl-card__title mdl-card__title-regreso1 mdl-card--expand">
+                  <div class="mdl-card__supporting-text">
+                    <p class="textob ">
+                      Transforma la huella de nuestro mezcal en vida y color. Con nuestras macetas biodegradables, el bagazo de agave encuentra 
+                      un nuevo propósito. Juntos, reducimos residuos y embellecemos el mundo. ¡Únete a nuestra misión sustentable!</p>
+                  </div>
+                  <button class="mdl-button mdl-js-button mdl-button--raised"><a href="./macetas.html">MACETAS</a></button>
+                </div>             
               </div>
 <!--  =====FOOTER==================================================  -->
               <footer class="mdl-mini-footer">
@@ -173,10 +182,27 @@
                     <li><a href="#">User Agreement</a></li>
                   </ul>
                 </div>
-                <div class="mdl-mini-footer__right-section">
-                  <button class="mdl-mini-footer__social-btn"><i class="fa fa-instagram" aria-hidden="true"></i></button>
-                  <button class="mdl-mini-footer__social-btn"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </button>
-                  <button class="mdl-mini-footer__social-btn"> <i class="fa fa-facebook" aria-hidden="true"></i></button>
+                <div class="mdl-mini-footer__right-section ">
+                
+                      <!-- <button class="mdl-mini-footer__social-btn">
+                          <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                        </button>
+
+                        <button class="mdl-mini-footer__social-btn">
+                          <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </button>
+
+                      <button class="mdl-mini-footer__social-btn">
+                          <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                        </button>  -->
+
+                        <div class="buttons">
+                          <a href="#" class="fa fa-facebook"></a>
+                          <a href="#" class="fa fa-whatsapp"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                      </div>
+
+                                     
                 </div>
               </footer>
         </main>
