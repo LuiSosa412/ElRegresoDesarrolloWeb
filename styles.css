@@ -1,12 +1,18 @@
     .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
     padding-right: 0;
   }
-  
+    /* DISEÑO DE MENU DESPLEGABLE ========================*/
+
   .mdl-layout__header{
     /* background: url('../hearder.jpg') center / cover; */
     background: #ebe6e6;
   }
-  
+    .mdl-layout__header-row .mdl-navigation__link{
+    color: #000000;
+  }
+
+
+
   .img-header{
     width: 188px;
     margin-top: -200px;
@@ -17,15 +23,6 @@
     width: auto;
 
   }
-
-  .mdl-layout__header-row .mdl-navigation__link{
-    color: #000000;
-  }
-
-
-
-
-  
   .text-center{
     color:#f1f1f1 ;
   }
@@ -104,10 +101,10 @@
   /* =====BOTONES DE REDES SOCIALES=========================================== */
   .buttons a {
     text-decoration: none;
-    font-size: 21px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background:   #000000;
     color: #f1f1f1;

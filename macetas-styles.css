@@ -1,79 +1,68 @@
+ 
+ /* =====PORTADA========================================================================================= */
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
     padding-right: 0;
   }
-  
   .mdl-layout__header{
-    /* background: url('../hearder.jpg') center / cover; */
     background: #b1b158;
   }
-  
   .img-header{
     width: 325px;
-    margin-top: -90px;
-    
+    margin-top: -90px; 
   }
-  
-  .img-header-1{
-    height: 35px;
-    width: auto;
-
+  body{
+    font-family: 'Tinos', serif;
   }
-  
   .text-center{
     color:#f1f1f1 ;
   }
- 
-  
   .material-icons{
-    color: #b1b158;
+    color: #f7f7e8;
   }
   .mdl-card__title{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
   }
   .page-content{
     height:800px;  
 }
-
 .demo-card-image.mdl-card {
     width: 100vw;
     height: 335px;
     background: #b1b158;
-    /* background: url('./asets/macetas.jpg') center / cover; */
   }
-
 .title{
-    padding: 4%;
-    width: 110%;
+    padding: 1%;
+    width: 98%;
+    font-size: 30px;
+    text-align: center;
     margin: 0 0 0 0;
     border: 1px solid #fff;
     font-family: 'Cardo';
-
   }
-
   hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgb(0 0 0 / 74%);
+    border-top: 1px solid rgba(100, 99, 99, 0.74);
   }
 
-  /* MQ PARA MENU DESPLEGABLE======================= */
-  @media screen and (max-width:1024px){
-    .ContendHeader{
-        display: flex;
-        flex-direction: column;
-        
-    }
+   .mdl-layout__header{
+    /* background: url('../hearder.jpg') center / cover; */
+    background: #ebe6e6;
+  }
 
-    .demo-card-image {
-        height: 919px;
-      }
-   
+  .mdl-layout__header-row .mdl-navigation__link {
+    display: block;
+    color: #000000;
+    line-height: 64px;
+    padding: 0 24px;
+}
+  p{
+    text-align: justify;
   }
   
-  /* DISEÑO DE MENU DESPLEGABLE ========================*/
+  /* DISEÑO DE MENU DESPLEGABLE ======================================================================*/
   .mdl-layout__drawer{
     background-color:   #ffffff  ;
     border-right: 0px
@@ -84,45 +73,24 @@
   .mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
     color:  #1c1c1b;
   }
-  
-  /* =====BOTONES DE REDES SOCIALES=========================================== */
-  .buttons a {
-    text-decoration: none;
-    font-size: 20px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background:   #1c1c1b  ;
-    color: #f1f1f1;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    transition: all .4s ease-in-out;
-  }
-  
-  .buttons a:hover {
-    transform: scale(1.2);
-  }
-  
-  .buttons{
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
-    margin-top: 30px;
-    justify-content: center;
-    column-gap: 30px;
-    min-width: 330px;
-  }
-    /* =====PRIMERA TARJETA================================================== */
+    /* MQ PARA MENU DESPLEGABLE */
+    @media screen and (max-width:1024px){
+      .ContendHeader{
+          display: flex;
+          flex-direction: column;     
+      }
+      .demo-card-image {
+          height: 919px;
+        }
+    }
+    /* =====PRIMERA TARJETA========================================================================= */
     .mdl-card-regreso{
         width: 100VW;
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 50px 150px 50px 150px;
-
     }
-
     .mdl-card__media{
         background-color:#ffffff;
         /* border-radius: 12px; */
@@ -134,13 +102,62 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 50px 0px 50px 0px;
+            padding: 20px 0px 20px 0px;
             text-align: center;
-    
-        }
-       
+        }      
       }
-    /* =====SEGUNDA TARJETA================================================== */
+      /* =====SEGUNDA TARJETA================================================== */
+
+      .demo-card-maceta1.mdl-card {
+        width: 100vw;
+        height: 50vw;
+        background: url('./asets/Maceta-1.jpg') center / cover;
+      }
+      .demo-card-image2 > .mdl-card__actions {
+        height: 52px;
+        padding: 16px;
+        background: rgba(0, 0, 0, 0.2);
+      }
+   
+
+    /* MEDIA Q. PARA 2 TARJETA */
+    @media screen and (max-width:1024px){
+      .demo-card-maceta1.mdl-card {
+        width: 100vw;
+        height: 160vw;
+        background: url('./asets/Maceta-1.jpg') center / cover;
+      }
+
+      .demo-card-image2 > .mdl-card__actions {
+        height: 52px;
+        padding: 16px;
+        background: rgba(0, 0, 0, 0.2);
+      }
+
+      .texto2{
+        color: #f1f1f1;
+        text-align: center;
+        font-size: 19px;
+        letter-spacing: 2px;
+      
+      }
+      .mdl-card-regreso-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+      }
+    }
+
+    .mdl-card-regreso-4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* =====TERCERA TARJETA================================================== */
     .mdl-card-regreso2{
         width: 100VW;
         display: flex;
@@ -156,58 +173,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 50px 0px 50px 0px;
+        padding: 20px 0px 20px 0px;
         text-align: center;
 
     }
-   
   }
+ 
 
-  section {
-    font-family: 'Lora';
+
+/* =====FOOTER================================================== */
+a{
+  color: #fff;
+}
+.mdl-mini-footer{
+  background-color: #000000;
 }
 
-#consuelo {
-    width: 100%;
-    height: auto;
-    margin-left: 15%;
-    /* border: 3px solid #d3d3d3; */
-}
-
-#testimonial {
-    background-color: #f1f1f1;
-    padding: 4% 3% 4% 3%;
-    /* margin-bottom: 5%; */
-}
-
-.frase{
-    color: #1c1c1b;
-}
-
-@media (min-width: 1024px) { 
-    header {
-    padding-top: 5%;
-    }
-  
-    .btn-circle {
-     margin-top: 10%;
-    }
-  
-    section {
-        line-height: 30px;
-    }
-  
-    .testimonial-right span {
-        font-size: 40px;
-    }
-    
-    .testimonial-right footer {
-        font-size: 16px;
-    }  
-  
-    #consuelo {
-        width: 50%;
-        height: auto;
-    }  
-  
+@media screen and (max-width:1024px){
+  .buttons{
+    margin-top: 16px;
+  }
 }
