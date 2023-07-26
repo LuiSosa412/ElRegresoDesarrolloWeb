@@ -61,6 +61,16 @@
   p{
     text-align: justify;
   }
+
+  h3 {
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
   
   /* DISEÑO DE MENU DESPLEGABLE ======================================================================*/
   .mdl-layout__drawer{
