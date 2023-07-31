@@ -1,6 +1,6 @@
  
  /* =====PORTADA========================================================================================= */
-.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+ .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
     padding-right: 0;
   }
   .mdl-layout__header{
@@ -29,7 +29,7 @@
 .demo-card-image.mdl-card {
     width: 100vw;
     height: 335px;
-    background: #b1b158;
+    background: #023047;
   }
 .title{
     padding: 1%;
@@ -121,7 +121,7 @@
       .demo-card-maceta1.mdl-card {
         width: 100vw;
         height: 50vw;
-        background: url('./asets/Maceta-1.jpg') center / cover;
+        background: url('./asets/simarron.jpg') center / cover;
       }
       .demo-card-image2 > .mdl-card__actions {
         height: 52px;
@@ -134,8 +134,8 @@
     @media screen and (max-width:1024px){
       .demo-card-maceta1.mdl-card {
         width: 100vw;
-        height: 120vw;
-        background: url('./asets/Maceta-1.jpg') center / cover;
+        height: 60vw;
+        background: url('./asets/simarron.jpg') center / cover;
       }
 
       .demo-card-image2 > .mdl-card__actions {
@@ -165,6 +165,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .textosFondoImg{
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
     }
     
     /* =====TERCERA TARJETA================================================== */
@@ -193,7 +200,7 @@
        .demo-card-maceta2.mdl-card {
         width: 100vw;
         height: 50vw;
-        background: url('./asets/Maceta-1.jpg') center / cover;
+        background: url('./asets/carnaval23.jpg') center / cover;
       }
       .demo-card-image2 > .mdl-card__actions {
         height: 52px;
@@ -207,7 +214,7 @@
       .demo-card-maceta2.mdl-card {
         width: 100vw;
         height: 1vw;
-        background: url('./asets/macetas.jpg') center / cover;
+        background: url('./asets/carnaval23.jpg') center / cover;
       }
 
       .demo-card-image2 > .mdl-card__actions {
@@ -238,6 +245,64 @@
       justify-content: center;
       align-items: center;
     }
+
+     /* =====QUINTA TARJETA================================================== */
+
+     .demo-card-alebrije.mdl-card {
+      width: 100vw;
+      height: 50vw;
+      background: url('./asets/igleciadeff.jpg') center / cover;
+    }
+    .demo-card-image2 > .mdl-card__actions {
+      height: 52px;
+      padding: 16px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+ 
+
+  /* MEDIA Q. PARA 2 TARJETA */
+  @media screen and (max-width:1024px){
+    .demo-card-alebrije.mdl-card {
+      width: 100vw;
+      height: 60vw;
+      background: url('./asets/igleciadeff.jpg') center / cover;
+    }
+
+    .demo-card-image2 > .mdl-card__actions {
+      height: 52px;
+      padding: 16px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .texto2{
+      color: #f1f1f1;
+      text-align: center;
+      font-size: 19px;
+      letter-spacing: 2px;
+    
+    }
+    .mdl-card-regreso-4{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0px;
+    }
+  }
+
+  .mdl-card-regreso-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textosFondoImg{
+  font-family: 'Tinos', serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  }
     
 
 
